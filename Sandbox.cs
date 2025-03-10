@@ -9,9 +9,9 @@ namespace MyApp
             // Q3 problem 1
             Console.WriteLine("Question 3, Problem 1 fixed code");
             int number = 50;
-            if (number == 50) ;
+            if (number == 50)
             {
-                Console.WriteLine("Number is" + number);
+                Console.WriteLine("Number is " + number);
             }
 
             // problem 2
@@ -63,7 +63,7 @@ namespace MyApp
 
             // Q4 problem 1:
             Console.WriteLine("Question 4 Problem 1 wrong output");
-            int height = 12;
+            int height = 13;
             if (height <= 12)
                 Console.WriteLine("Low bridge: ");
                 Console.WriteLine("proceed with caution.");
@@ -74,6 +74,10 @@ namespace MyApp
             {
                 Console.WriteLine("Low bridge: ");
                 Console.WriteLine("proceed with caution.");
+            }
+            else
+            {
+                Console.WriteLine("None");
             }
 
             // problem 2:
@@ -87,7 +91,7 @@ namespace MyApp
 
             // fix:
             Console.WriteLine("Problem 2 fixed output");
-            sum = 21;
+            sum = 20;
             if (sum != 20)
             {
                 Console.WriteLine("You win ");
@@ -153,3 +157,4 @@ namespace MyApp
         }
     }
 }
+
